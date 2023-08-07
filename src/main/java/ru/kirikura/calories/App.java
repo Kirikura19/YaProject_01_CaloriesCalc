@@ -9,6 +9,7 @@ import ru.kirikura.calories.console.Menu;
 public class App 
 {
     public static void main( String[] args ) {
-        Menu.showMenu();
+        Menu menu = new Menu();
+        menu.showMenu();
     }
 }
